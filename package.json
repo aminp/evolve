@@ -1,22 +1,7 @@
 {
-  "name": "evolve",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aminp/evolve.git"
-  },
-  "keywords": [
-    "badminton"
-  ],
-  "author": "Amin Pourhadi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aminp/evolve/issues"
-  },
-  "homepage": "https://github.com/aminp/evolve#readme"
+  "dependencies": {
+    "-": "^0.0.1",
+    "@angular/cli": "^14.1.2",
+    "g": "^2.0.1"
+  }
 }
