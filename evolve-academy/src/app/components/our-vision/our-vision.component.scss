@@ -1,0 +1,12 @@
+
+.our-vision .image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.our-vision .image-container .vision-photo {
+    max-height: 410px;
+    border: solid 1px #d3d2d2;
+}

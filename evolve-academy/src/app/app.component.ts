@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { LazyLoadScriptService } from './shared/services/lazy-load.service';
 
 @Component({
-  selector: 'app-root',
+  selector: 'evolve-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })

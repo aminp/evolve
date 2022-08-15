@@ -1,0 +1,78 @@
+.our-team .cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.our-team .cards .card {
+    width: 250px;
+    max-width: 300px;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+}
+
+.our-team .cards .card .card-image,
+.our-team .cards .card .card-image img {
+    border-radius: 200px;
+    border: 1px solid #e0e0e0;
+}
+
+.our-team .cards .card .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.our-team .cards .card .card-body .social-icons {
+ display: block;
+}
+
+.our-team .cards .card .card-body > p {
+    display: -webkit-box;
+    line-height: 25px;
+    position: relative;
+    overflow: hidden;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.our-team .cards .card .card-body > p > span {
+    display: block;
+    clear: both;
+    color: #257e08;
+}
+
+.our-team .cards .card .card-body > p:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 25px; 
+}
+
+.our-team .cards .card .card-body a {
+    order: 2;
+}
+
+.our-team .cards .card .card-body a.show-less {
+    display: none;
+}
+
+.our-team .cards .card .card-body a.show-less:target {
+    display: block;
+}
+
+.our-team .cards .card .card-body a.show-less:target ~ p {
+    display: block;
+    max-height: 100%;
+}
+
+.our-team .cards .card .card-body a.show-less:target + a {
+    display: none;
+}
