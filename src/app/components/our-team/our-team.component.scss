@@ -15,10 +15,14 @@
     background-color: transparent;
 }
 
-.our-team .cards .card .card-image,
-.our-team .cards .card .card-image img {
+.our-team .cards .card .card-image {
     border-radius: 200px;
     border: 1px solid #e0e0e0;
+}
+
+.our-team .cards .card .card-image img {
+    width: 248px;
+    height: 248px;
 }
 
 .our-team .cards .card .card-body {

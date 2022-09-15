@@ -1,0 +1,61 @@
+.intro {
+    background-color: #c3c0c021;
+    text-align: center;
+}
+
+.intro .offers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 15px;
+}
+
+.intro .offers-container .offers-welcome {
+    margin-bottom: 50px;
+}
+
+
+.intro .offers-container .offers-header {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.intro .offers-container .offers-header {
+    color: #0f74b3;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.intro .offers-container .offers-content {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.intro .offers-container .offers-content ul {
+    list-style: none;
+}
+
+.intro .offers-container .offers-content ul li{
+    text-align: left;
+}
+
+.intro .offers-container .offers-content ul li:before {
+    content: '✓';
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+
+.intro .offers-container .offers-content > span {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    width: 80%;
+}
+
+.intro .offers-container .offers-content span > span{
+    font-weight: bold;
+    color: black;
+}

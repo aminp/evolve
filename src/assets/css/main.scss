@@ -146,7 +146,7 @@ a:hover {
 }
 
 .section-title {
-	color: #14bf98;
+	color: #0f74b3;
 	font-weight: 700;
 	font-size: 1rem;
 	line-height: 1.125rem;
@@ -155,9 +155,9 @@ a:hover {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-	border: 1px solid #14bf98;
+	border: 1px solid #0f74b3;
 	border-radius: 2px;
-	background-color: #14bf98;
+	background-color: #0f74b3;
 	color: #ffffff;
 	font-size: 0.875rem;
 	line-height: 0;
@@ -167,7 +167,7 @@ a:hover {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #14bf98; /* needs to stay here because of the color property of a tag */
+	color: #0f74b3; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
@@ -364,7 +364,7 @@ a:hover {
 /*     Navigation     */
 /**********************/
 .navbar {
-	background-color: #153e52;
+	background-color: #0f74b3;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
 	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
@@ -398,7 +398,7 @@ a:hover {
 	padding-left: 1rem;
 	overflow-y: auto;
 	visibility: hidden;
-	background-color: #153e52;
+	background-color: #0f74b3;
 	transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
@@ -421,13 +421,15 @@ a:hover {
 	color: #ffffff;
 	text-decoration: none;
 	transition: all 0.2s ease;
+	font-weight: 700;
+    font-size: 0.75rem;
 }
 
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link:focus,
 .navbar .nav-item .nav-link.active {
-	color: #14bf98;
+	color: #080e69;
 }
 
 /* Dropdown Menu */
@@ -449,7 +451,7 @@ a:hover {
 	margin-top: 0.25rem;
 	margin-bottom: 0.25rem;
 	border: none;
-	background-color: #153e52;
+	background-color: #0f74b3;
 }
 
 .navbar .dropdown-item {
@@ -462,8 +464,8 @@ a:hover {
 }
 
 .navbar .dropdown-item:hover {
-	background-color: #153e52;
-	color: #14bf98;
+	background-color: #073e61;
+	color: #bdbdbd;
 }
 
 .navbar .dropdown-divider {
@@ -515,7 +517,7 @@ a:hover {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/header-background.jpg') no-repeat;
 	background-size: cover;
 	text-align: center;
-	background-position: 10% 10%;
+	background-position: 80% 100%;
 }
 
 .header .h1-large {
@@ -691,7 +693,7 @@ a:hover {
 }
 
 .cards-2 .card-body .price span {
-	color: #14bf98;
+	color: #0f74b3;
 }
 
 .cards-2 .button-wrapper {
@@ -711,7 +713,7 @@ a:hover {
 /*********************/
 .accordion-1 .area-1 {
 	height: 440px;
-	background: url('../images/details-1-background.jpg') center center no-repeat;
+	background: url('../images/header-background.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -746,7 +748,7 @@ a:hover {
 	width: 2.25rem;
 	height: 2.25rem;
 	border-radius: 50%;
-	background-color: #14bf98;
+	background-color: #0f74b3;
 	color: #ffffff;
 	font-weight: 700;
 	font-size: 1rem;
@@ -903,7 +905,7 @@ a:hover {
 
 .tabs-1 .area-2 {
 	height: 432px;
-	background: url('../images/details-2-background.jpg') center center no-repeat;
+	background: url('../images/header-background.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1421,7 +1423,7 @@ a:hover {
 .footer {
 	padding-top: 6.5rem;
 	padding-bottom: 1.5rem;
-	background-color: #153e52;
+	background-color: #0f74b3;
 }
 
 .footer a {
@@ -1458,7 +1460,7 @@ a:hover {
 }
 
 .footer .footer-col.third .fa-stack:hover {
-	background: url('../images//hexagon-green.svg') center center no-repeat;
+	background: url('../images/hexagon-white.svg') center center no-repeat;
 	background-size: 3.25rem 3.25rem;
 }
 
@@ -1478,7 +1480,7 @@ a:hover {
 /*********************/
 .copyright {
 	padding-bottom: 1rem;
-	background-color: #153e52;
+	background-color: #0f74b3;
 	text-align: center;
 }
 
@@ -1709,7 +1711,7 @@ a:hover {
 	/* Navigation */
 	.navbar {
 		padding-top: 1.75rem;
-		background-color: transparent;
+		background-color: #c8c3c366;
 		box-shadow: none;
 		transition: all 0.2s;
 	}
@@ -1721,7 +1723,7 @@ a:hover {
 	.navbar.top-nav-collapse {
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
-		background-color: #153e52;
+		background-color: #0f74b3;
 		box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
 	}
 

@@ -10,10 +10,12 @@ import { ServicesComponent } from './components/services/services.component';
 import { LazyLoadScriptService } from './shared/services/lazy-load.service';
 import { OurTeamComponent } from './components/our-team/our-team.component';
 import { WhyUsComponent } from './components/why-us/why-us.component';
-import { AcademyInfoComponent } from './components/academy-info/academy-info.component';
+import { ContactUSComponent } from './components/contact-us/contact-us.component';
 import { NewsComponent } from './components/news/news.component';
 import { SponsorsComponent } from './components/sponsors/sponsors.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { IntroComponent } from './components/intro/intro.component';
+import { KitsComponent } from './components/kits/kits.component';
 
 @NgModule({
   declarations: [
@@ -24,10 +26,12 @@ import { FooterComponent } from './components/footer/footer.component';
     ServicesComponent,
     OurTeamComponent,
     WhyUsComponent,
-    AcademyInfoComponent,
+    ContactUSComponent,
     NewsComponent,
     SponsorsComponent,
     FooterComponent,
+    IntroComponent,
+    KitsComponent,
   ],
   imports: [
     BrowserModule,

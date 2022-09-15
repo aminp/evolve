@@ -1,0 +1,36 @@
+.kits .kit-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.kits .kit-photos .skort-shirt img,
+.kits .kit-photos .short-shirt img {
+    width: 100%;
+}
+
+.kits .kit-photos .card {
+    margin-bottom: 5px;
+}
+
+.kits .kit-photos .card .section-title{
+    margin: 5px 0;
+}
+
+.kits .kit-prices ul li.price span {
+    color: #0f74b3;
+}
+
+@media (max-width: 990px) {
+    .kits .kit-photos {
+        flex-direction: column;
+        flex-wrap: nowrap
+    }
+
+    .kits .kit-photos .skort-shirt img,
+    .kits .kit-photos .short-shirt img {
+        width: 70%;
+    }
+}
